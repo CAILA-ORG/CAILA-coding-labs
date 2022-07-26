@@ -1,0 +1,59 @@
+body {
+  padding-top: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 7;
+}
+
+.navbar-toggler i {
+  font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+.indicator {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+}
+
+#timeline > div:last-child:after {
+  padding: 0;
+  margin: 0;
+  display: block;
+  content: '';
+  width: 0.7px;
+  height: 55%;
+  background-color: #b23cfd;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#timeline > div:last-child {
+  border: none !important;
+}
+
+.modal-content {
+  border: none !important;
+}
+
+#warningModal .modal-header {
+  background-color: #ff6700;
+  color: white;
+}
+
+#dangerModal .modal-header {
+  background-color: #d0342c;
+  color: white;
+}
